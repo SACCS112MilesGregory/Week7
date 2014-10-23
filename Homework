@@ -27,10 +27,10 @@ public class Week7Lab1
 				computerPlay = "Scissors";
 		
 			String myPlay =
-					JOptionPane.showInputDialog("Enter your play: ");
+				JOptionPane.showInputDialog("Enter your play: ");
 			
 			String message =
-					String.format("Your play is %s", myPlay);
+				String.format("Your play is %s", myPlay);
 			JOptionPane.showMessageDialog(null, message);
 			
 			JOptionPane.showInputDialog(null, "The computer chose:", computerPlay );
@@ -48,20 +48,20 @@ public class Week7Lab1
 			}
 			else if(myPlay.equals("Paper"))
 			{
-				if(computerPlay.equals("Scissors"))
-					JOptionPane.showMessageDialog(null, "Scissors cuts paper. You lose!");
-				else if(computerPlay.equals("Rock"))
-				System.out.println("Paper eats rock. You win!!");
+			    if(computerPlay.equals("Scissors"))
+				JOptionPane.showMessageDialog(null, "Scissors cuts paper. You lose!");
+			    else if(computerPlay.equals("Rock"))
+				JOptionPane.showMessageDialog(null, "Paper eats rock. You win!");
 			}
 			else if(myPlay.equals("Scissors"))
 			{
-				if(computerPlay.equals("P"))
-					JOptionPane.showMessageDialog(null,"Scissors cut paper. You lose!");
-				else if(computerPlay.equals("Rock"))
-					JOptionPane.showMessageDialog(null,"Rock breaks scissors. You lose!");
+			    if(computerPlay.equals("Paper"))
+				JOptionPane.showMessageDialog(null,"Scissors cut paper. You lose!");
+			    else if(computerPlay.equals("Rock"))
+				JOptionPane.showMessageDialog(null,"Rock breaks scissors. You lose!");
 			}
 			else
-				JOptionPane.showMessageDialog(null, "Invalid Input.");
+			    JOptionPane.showMessageDialog(null, "Invalid Input.");
 			count++;
 		}
 		while(count<=3);
