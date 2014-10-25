@@ -74,4 +74,3 @@ public class Week7Lab4
 		} while(count<4);
 	}
 }
-
