@@ -12,7 +12,7 @@ public class Week7Lab4
 		do
 		{
 			RandomNumbercon randomNumber = new RandomNumbercon();
-			randomNumber.randomPlay = (int)(Math.random() * 3 + 1);
+			randomNumber.randomPlay = (int)(Math.random() * 10 + 1);
 			
 			// Setup up play by computer		
 			if(randomNumber.randomPlay == 1)
