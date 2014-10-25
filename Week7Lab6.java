@@ -6,7 +6,7 @@ public class Week7Lab6
 	public static void main(String[] args) 
 	{
 		String computerPlay = null;
-		int count=1;
+		int count=0;
 		Random randomPlay = new Random();
 		
 		JOptionPane.showMessageDialog(null, "It's the Rock, Paper, Scissors game!");
