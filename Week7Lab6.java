@@ -75,6 +75,6 @@ public class Week7Lab6
 					JOptionPane.showMessageDialog(null, "Invalid entry");
 			}
 			count++;
-		} while(count<4);
+		} while(count<3);
 	}
 }
