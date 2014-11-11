@@ -1,0 +1,21 @@
+1. What is a Java class? (10 points)
+2. What is the difference between declaring a variable and instantiating a variable (10 points)
+3. Write a Odd/Even game, where the user is asked to guess whether a system generated number is Odd or Even (50 points)
+4. Allow the user to play until the user no longer interested (20 points)
+5. Keep track of number of wins and loses and inform user upon game completion (10 points)
+6. Use a class to generate the randome odd/even number (5 points)
+7. Add a method to test whether the number is odd/even, and use it in the game (10 points)
+
+
+1. A Java class is a blueprint that is used to create objects, and to define object
+   data types and methods. Classes are categories, and objects are items with each
+   category. A class declaraton is made up of the following parts:
+
+   * Modifiers
+   * Class name
+   * Keywords
+   * Class body within curly brackets
+
+2. Declaring a variable makes it available for use and instantiating a variable is the process of creating an instance of a class which represents the blueprint.
+
+Gregoy Miles
